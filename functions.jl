@@ -1,5 +1,5 @@
-function func(x, y, z)
-	result = x + y + z
+function func(x::Int, y::Int, z::Int)::Int
+	result::Int = x + y + z
 	return result
 end
 
