@@ -18,18 +18,18 @@ falseValue::Bool = false
  println("x = ",x)
  println("y = ",y)
 
- println ("x > y = ",x > y)
+ println("x > y = ",x > y)
 
- println ("x >= y = ",x >= y)
+ println("x >= y = ",x >= y)
 
- println ("x < y = ",x < y)
+ println("x < y = ",x < y)
 
- println ("x <= y = ",x <= y)
+ println("x <= y = ",x <= y)
 
- println ("x == y = ",x == y)
+ println("x == y = ",x == y)
 
- println ("x != y = ",x != y)
+ println("x != y = ",x != y)
 
- println ("trueValue == falseValue = ",trueValue == falseValue)
+ println("trueValue == falseValue = ",trueValue == falseValue)
 
- println ("trueValue != falseValue =",trueValue != falseValue)
+ println("trueValue != falseValue =",trueValue != falseValue)
