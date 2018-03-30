@@ -5,11 +5,13 @@ function while_func()::Int
         println(x)
         x = x + 1
     end
+    return x
 end
 
-while_func()
+println(while_func())
 # prints:
 #   0
 #   1
 #   2
 #   3
+#   4
