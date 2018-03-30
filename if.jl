@@ -1,4 +1,4 @@
-x = 3 + 2*5
+x::Int = 3 + 2*5
 
 println(x)
 if(x > 3)
