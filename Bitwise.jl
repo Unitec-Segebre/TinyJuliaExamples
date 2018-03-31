@@ -4,7 +4,6 @@
  * A test program for relational operators
  *******************************************
 =#
-
 x::Int = 10
 y::Int = 20
 boolValue::Bool = true;

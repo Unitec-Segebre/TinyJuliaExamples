@@ -7,7 +7,6 @@ function func(x::Int, y::Int, z::Int)::Int
 		if x == 2
 			println("Hola")
 		end
-		result %= x
 	end
 
 	a::Array{Int} = [7,4,9,2,10,1,5,3,8,6,false]
