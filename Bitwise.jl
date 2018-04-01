@@ -28,9 +28,10 @@ boolValue::Bool = true;
 
  println("-8 >> 3 = ",-8 >> 3 )
 
- println ("2 << 4 = ", 2 << 4)
+ println("2 << 4 = ", 2 << 4)
 
-
+ z::Bool = !true
+ println(~z)
 
 #=# Should Print
 
@@ -47,5 +48,5 @@ x | y = 30
 x $ y = 30
 -8 >> 3 = -1
 2 << 4 = 32
-
+true
 #=#
