@@ -1,9 +1,7 @@
 x::Bool = true
 y::Int = 140
 
-println("Rule ",
-y, ".", 15, ":\n\t\\", false,
-" should be the \"oposite\" of \\", x);
+println("Rule ", y, ".", 15, ":\n\t\\", false, " should be the \"oposite\" of \\", x);
 
 #Prints
 #=
