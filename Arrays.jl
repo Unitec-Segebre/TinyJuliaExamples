@@ -1,4 +1,5 @@
-x::Array{Int} = [15, 34, 25, 54]
+y::Array{Int} = [3, 2, 1]
+x::Array{Int} = [15, 34, 25, y[2]^3]
 
 for a = 1:4
     if(x[a] > 25)

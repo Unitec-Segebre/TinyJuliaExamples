@@ -6,3 +6,6 @@ function factorial(z::Int)::Int
 end
 
 println(factorial(5))
+
+
+# prints 120
