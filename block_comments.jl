@@ -5,6 +5,8 @@
   Tem julia code como this: x:Int32 = 0;
 =#
 
+println(1)
+
 #= Just do it. =#
 
 #= This file is codeless too. =#
