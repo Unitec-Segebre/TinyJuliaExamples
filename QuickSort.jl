@@ -1,6 +1,6 @@
 a::Array{Int} = [7,4,9,2,10,1,5,3,8,6,false]
 
-function quickSort(left::Int, right::Int)
+function quickSort(left::Int, right::Int)::Int
     i::Int = left
     j::Int = right
     tmp::Int =0
@@ -10,7 +10,7 @@ function quickSort(left::Int, right::Int)
         while (a[i] < pivot)
             i = i+1
         end
-        
+
         while (a[j] > pivot)
             j = j-1
         end
@@ -31,17 +31,15 @@ function quickSort(left::Int, right::Int)
     end
 end
 
- 
+
 for i = 1:11
     println(a[i])
 end
 
 println("---------------Ya Ordenado----------------------")
 
-quickSort(0, 11)
+quickSort(1, 11)
 
 for i = 1:11
     println(a[i])
 end
-
-
