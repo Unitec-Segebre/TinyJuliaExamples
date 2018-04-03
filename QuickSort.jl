@@ -33,7 +33,11 @@ end
 
 
 for i = 1:11
-    println(a[i])
+    if(i != 11)
+        print(a[i], ", ")
+    else
+        println(a[i])
+    end
 end
 
 println("---------------Ya Ordenado----------------------")
@@ -41,5 +45,9 @@ println("---------------Ya Ordenado----------------------")
 quickSort(1, 11)
 
 for i = 1:11
-    println(a[i])
+    if(i != 11)
+        print(a[i], ", ")
+    else
+        println(a[i])
+    end
 end
