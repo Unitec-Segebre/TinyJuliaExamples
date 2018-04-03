@@ -18,3 +18,15 @@ end
 println(addition(5, 5^2, 5<<2, 50/5))
 
 println(func(1, 2, 3))
+
+#=#
+Prints
+#=
+60
+1
+Hola
+2
+3
+6
+=#
+#=#
