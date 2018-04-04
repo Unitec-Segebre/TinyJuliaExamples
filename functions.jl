@@ -19,9 +19,8 @@ println(addition(5, 5^2, 5<<2, 50/5))
 
 println(func(1, 2, 3))
 
-#=#
-Prints
 #=
+Prints
 60
 1
 Hola
@@ -29,4 +28,3 @@ Hola
 3
 6
 =#
-#=#
